@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Result{% endblock %}
+
+{% block content %}
+<div class="result-card">
+<h1>Your Score: {{ score }}/{{ total }}</h1>
+<p>Nice try - Keep practising!</p>
+</div>
+<a class="btn" href="/quiz">Try Again</a>
+{% endblock %}

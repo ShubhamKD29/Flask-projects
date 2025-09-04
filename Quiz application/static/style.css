@@ -1,0 +1,225 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.welcome h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #45a049;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Contact Page Styling */
+.contact-links {
+    list-style: none;
+    padding: 0;
+    margin: 40px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+.contact-links li {
+    margin: 15px 0;
+}
+
+.contact-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #4CAF50;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+    background: #45a049;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Quiz form container */
+form {
+    width: 70%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Question block */
+.question {
+    background: #fff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Options spacing */
+.question input[type="radio"] {
+    margin-right: 8px;
+    transform: scale(1.1);
+}
+.question label {
+    display: block;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+/* Submit button */
+button {
+    display: block;
+    margin: 25px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: #45a049;
+}
+
+/* Card container */
+.result-card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 560px;
+  padding: 36px 28px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(30, 40, 60, 0.08);
+  text-align: center;
+}
+
+/* Big score */
+.result-card h1 {
+  margin: 0 0 18px;
+  font-size: 2rem;
+  line-height: 1.1;
+  color: #111827;
+  font-weight: 700;
+}
+
+/* Optional smaller subtitle */
+.result-card p {
+  margin: 0 0 22px;
+  color: #4b5563;
+}
+
+/* Try Again link as button */
+.result-card .btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: linear-gradient(180deg,#16a34a,#0ea25a);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(16, 185, 129, 0.18);
+  transition: transform .14s ease, box-shadow .14s ease;
+}
+
+.result-card .btn:hover,
+.result-card .btn:focus {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(16,185,129,0.22);
+  outline: none;
+}
+
+/* Center container */
+.start-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+/* Attractive Start Quiz button */
+.start-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(135deg, #4CAF50, #2e8b57);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+}
+
+.start-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, #43a047, #1e7145);
+}
